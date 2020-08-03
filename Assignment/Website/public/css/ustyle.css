@@ -1,0 +1,89 @@
+.log{
+    width: 80%;
+    height: 60%;
+    margin-top: 120px;
+}
+.content{
+    width: 75vw;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: rgb(63, 61, 59);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(175, 160, 160);
+}
+
+.title
+{
+    width: inherit;
+    height: 50px;
+    background-color: rgb(37, 36, 36);
+    border-radius: 10px;
+    border-bottom: solid;
+    -webkit-text-stroke: 0.3px rgb(201, 201, 201);
+    text-shadow:
+       1px 1px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 18px;
+    padding-bottom: 5px;
+    color:rgb(119, 99, 57);
+    border-color: rgb(175, 160, 160);
+}
+.date{
+    margin-right: auto;
+    margin-left: 15px;
+    color:rgb(107, 106, 104);
+    font-size: 15px;
+}
+.info
+{
+    color: rgb(182, 181, 178);
+        font-size: 40px;
+        padding-top: 100px;
+        width: 40vw;
+        margin: auto;
+        text-align: center;
+}
+.sign{
+    color: rgb(0, 112, 28);
+        font-size: 25px;
+        padding-top: 100px;
+        width: 20vw;
+        margin: auto;
+        text-align: center;
+}
+.photo{
+    margin-top: 20px;
+    padding: 25px;
+    background-image: url("../img/player.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 20vw;
+    display: inline-block;
+}
+.castle{
+    margin-top: 20px;
+    padding: 25px;
+    background-image: url("../gif/Chest.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30vw;
+    height: 20vw;
+    display: inline-block;
+}
+.patchPic{
+    margin-top: 20px;
+    padding: 20px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30%;
+    height: auto;
+    display: inline-block;
+}

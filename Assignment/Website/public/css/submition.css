@@ -1,0 +1,36 @@
+.submition{
+    overflow: hidden;
+    margin-bottom: 40px;
+    width: 30vw;
+    height: 300px;
+    padding-bottom: 40px;
+    margin:auto;
+    background-color: rgb(63, 61, 59);
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(175, 160, 160);
+}
+input[type=text]
+{
+    font-size: inherit;
+    margin: auto;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:  rgb(206, 201, 201);
+    box-sizing: border-box;
+}
+input[type=submit]
+{
+    cursor: pointer;
+    margin-top: 18px;
+    margin-left: 10vw;
+    width: 120px;
+    height: 25px;
+    text-align: center;
+    background-color:rgb(119, 99, 57);
+    border-width: 3px;
+    border-style: solid;
+    border-color: rgb(175, 160, 160);
+    font-size: 30;
+}

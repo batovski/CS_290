@@ -1,0 +1,66 @@
+.table{
+    margin: auto;
+    margin-top: 100px;
+    width: 80%;
+    height: auto;
+}
+.card {
+    opacity: 0.7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 335px;
+    height: auto;
+    background-color: rgb(75, 75, 72);
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 35px;
+}
+.card:hover, a:hover {
+    opacity: 1;
+}
+
+.ctitle {
+    text-shadow:
+       1px 1px 0 #000,
+     -1px -1px 0 #000,  
+      1px -1px 0 #000,
+      -1px 1px 0 #000,
+       1px 1px 0 #000;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 35px;
+    color:rgb(119, 99, 57);
+    border-color: rgb(175, 160, 160);
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.cartimg{
+    margin: auto;
+    height: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    box-sizing: 3px;
+}
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
