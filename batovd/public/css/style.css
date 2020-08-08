@@ -1,0 +1,31 @@
+.block{
+  margin: auto;
+  display: inline-block;
+  border-style: solid;
+  padding: 20px;
+  width: 15vw;
+  height: auto;
+  border-radius: 5px;
+  background-color: rgb(196, 189, 189);
+}
+.head{
+  margin: auto;
+  margin-top: 10vh;
+  display: inline-block;
+  border-style: solid;
+  padding: 20px;
+  width: 15vw;
+  height: auto;
+  border-radius: 5px;
+  background-color: rgb(105, 100, 100);
+}
+.edit{
+  opacity: 0.8;
+  z-index: 10;
+  position: fixed;
+  margin-bottom: 100vh;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(39, 37, 37);
+}
